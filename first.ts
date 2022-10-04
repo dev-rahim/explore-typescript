@@ -23,7 +23,7 @@ let isPresent: boolean = true;
 // const output: number = add(10, 50);
 
 //if we use void then cannot return anything 
-function add(first: number, second: number): void {
+function add(first: number, second: number):void {
     const result: number = first + second;
     // return result;
     console.log(result);
